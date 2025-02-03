@@ -1,7 +1,7 @@
 header {
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
-  position: fixed;
+  position: sticky;
   z-index: 100;
 }
 
@@ -29,5 +29,5 @@ nav ul li:hover {
   background: #eca023;
 }
 main {
-  padding-top: 80px;
+  padding-top: 10px;
 }
