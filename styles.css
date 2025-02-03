@@ -31,3 +31,70 @@ nav ul li:hover {
 main {
   padding-top: 10px;
 }
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  clear: both;
+  text-align: center;
+  position: relative;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  background-color: #eca023;
+  padding: 5px 10px;
+}
+
+footer .social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  color: #eca023;
+}
+
+footer .contact-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+footer .contact-info h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer .contact-info p {
+  margin: 5px 0;
+}
+
+footer .contact-info a {
+  color: #eca023;
+  text-decoration: none;
+}
+
+footer .contact-info a:hover {
+  text-decoration: underline;
+}
