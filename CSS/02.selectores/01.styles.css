@@ -1,0 +1,56 @@
+* {
+  font-size: 14px;
+}
+
+/*Este selector nos permite dar formato a todo el documento. Se llama selector universal*/
+
+.title {
+  color: coral;
+  width: 30px;
+  font-size: 50px;
+}
+
+.otro {
+  color: chartreuse;
+  width: 100px;
+  font-size: 50px;
+}
+
+#hello {
+  color: brown;
+  font-size: 34px;
+}
+
+.divider {
+  background-color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+footer p {
+  color: brown;
+}
+
+.container > h2 {
+  color: lawngreen;
+}
+
+div > h2 {
+  color: blue;
+}
+
+li:first-child {
+  color: plum;
+}
+
+li:last-child {
+  color: blueviolet;
+}
+
+a[href='hola.com'] {
+  color: pink;
+}
+
+/* A B C D */
