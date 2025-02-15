@@ -1,0 +1,58 @@
+/* div {
+  width: 100px;
+  height: 100px;
+}
+
+.relative {
+  position: relative;
+  left: 100px;
+  background-color: coral;
+}
+
+.absolute {
+  position: absolute;
+  left: 100px;
+  background-color: rgb(79, 42, 165);
+}
+
+.contenedor {
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(13, 215, 230);
+}
+
+.box_one {
+  height: 150px;
+  width: 150px;
+  background-color: blueviolet;
+  position: fixed;
+  margin: 0 auto;
+  top: 100px;
+  left: 100px;
+}
+ */
+
+.index_zero {
+  position: relative;
+  z-index: 1;
+  width: 500px;
+  background-color: yellow;
+}
+
+.index.zero > .index_primary {
+  position: absolute;
+  top: 60px;
+  z-index: 2;
+  width: 300px;
+  background-color: tomato;
+  opacity: 0.7;
+}
+
+.index.zero .index_secondary {
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  background-color: teal;
+  opacity: 0.5;
+  width: 300px;
+}

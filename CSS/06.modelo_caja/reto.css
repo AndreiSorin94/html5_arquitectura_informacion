@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+  background-color: #f0f0f0; /* Fondo suave para la página */
+}
+
+/* Estilos para la tarjeta */
+.card {
+  width: 300px; /* Ancho de la tarjeta */
+  margin: 50px; /* Margen de 50px desde los bordes de la ventana */
+  border: 5px solid #3498db; /* Borde de 5px de grosor y color azul */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo blanco para la tarjeta */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+  overflow: hidden; /* Asegura que el borde redondeado se aplique a la imagen también */
+}
+
+/* Estilo para la imagen de perfil */
+.card-image {
+  width: 150px; /* La imagen tiene un tamaño fijo */
+  height: 150px;
+  border-radius: 50%; /* Hace la imagen redonda */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  padding: 20px; /* Padding de 20px alrededor de la imagen */
+  display: block; /* Hace que el <img> sea un bloque para centrarlo */
+}
+
+/* Estilo para el nombre */
+h2 {
+  margin: 0;
+  padding: 10px 20px; /* Padding superior e inferior de 10px y izquierdo y derecho de 20px */
+  text-align: center; /* Centra el texto */
+  font-size: 24px; /* Tamaño de fuente para el nombre */
+  background-color: #3498db; /* Fondo azul para el nombre */
+  color: white; /* Color blanco para el texto */
+}
+
+/* Estilo para la descripción */
+p {
+  padding: 20px; /* Padding de 20px alrededor de la descripción */
+  font-size: 16px; /* Tamaño de fuente para la descripción */
+  color: #333; /* Color de texto oscuro */
+  text-align: justify; /* Justifica el texto */
+}

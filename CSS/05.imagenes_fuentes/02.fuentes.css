@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'LatoFontRegular';
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.regular {
+  font-family: 'LatoFontRegular';
+}
+
+@font-face {
+  font-family: LatoFontLight;
+  src: url(./assets/fonts/Lato/Lato-Light.ttf);
+  font-weight: bolder;
+  font-style: initial;
+}
+
+.light {
+  font-family: 'LatoFontLight';
+}
+
+@font-face {
+  font-family: LatoFontItalic;
+  src: url(./assets/fonts/Lato/Lato-ThinItalic.ttf);
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.italic {
+  font-family: 'LatoFontItalic';
+}

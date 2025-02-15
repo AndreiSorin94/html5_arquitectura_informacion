@@ -1,0 +1,8 @@
+.rectos {
+  border: 3px solid gray;
+}
+
+.redondeados {
+  border: 4px solid blue;
+  border-radius: 8px;
+}

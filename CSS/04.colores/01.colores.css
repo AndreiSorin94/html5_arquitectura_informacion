@@ -1,0 +1,15 @@
+.name_color {
+  color: palevioletred;
+}
+
+.name_rgb {
+  color: rgb(224, 70, 9); /* Se corrige la sintaxis */
+}
+
+.name_rgba {
+  color: rgba(241, 12, 12, 0.5); /* Se usa rgba con valores válidos */
+}
+
+.name_hexadecimal {
+  color: #0edb1873;
+}

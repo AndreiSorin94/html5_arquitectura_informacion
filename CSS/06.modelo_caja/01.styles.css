@@ -1,0 +1,13 @@
+.container_one {
+  width: 80%;
+  height: 100px;
+  background-color: coral;
+  margin: 20px;
+  padding: 50px;
+}
+
+.container_two {
+  width: 60%;
+  height: 200px;
+  background-color: yellowgreen;
+}

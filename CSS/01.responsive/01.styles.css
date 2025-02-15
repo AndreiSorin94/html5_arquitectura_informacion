@@ -1,0 +1,35 @@
+#header {
+  background-color: blue;
+  width: 100%;
+}
+
+#page {
+  background-color: indianred;
+  width: 100%;
+}
+
+#menu {
+  background-color: green;
+  width: 30%;
+}
+
+#content {
+  background-color: cornflowerblue;
+  width: 70%;
+}
+
+#footer {
+  background-color: yellow;
+  width: 100%;
+}
+
+/* Eliminamos este bloque */
+#menu,
+#content {
+  display: inline-block;
+}
+
+/* Añadimos este */
+#page {
+  display: flex;
+}
